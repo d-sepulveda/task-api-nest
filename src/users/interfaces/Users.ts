@@ -1,5 +1,9 @@
 export interface Users {
-    name: string
-    email: string
-    password: string
+  user: string;
+}
+
+export interface UpdateUser {
+  name?: string;
+  email?: string;
+  password?: string;
 }
